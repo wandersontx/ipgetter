@@ -1,0 +1,21 @@
+{
+    "name": "wandersontx/ipgetter",
+    "description": "Get IP address of the user",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wanderson Teixeira",
+            "email": "wandersonh89@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "IPGetter\\":"src/getip"
+        }
+    }
+}
